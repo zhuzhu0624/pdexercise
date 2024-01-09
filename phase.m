@@ -39,7 +39,7 @@ x0=[0.1 0.1 0.1];
 
 
 
-[t,x] = ode45(@(t,x) rossler(t, x, b1,d1,a11,a12,a13,d2,a21,a22,a23,d3,a31,a32,a33), tspan, x0);
+[t,x] = ode45(@(t,x) sp_ode(t, x, b1,d1,a11,a12,a13,d2,a21,a22,a23,d3,a31,a32,a33), tspan, x0);
 
 plot3(x(:,1), x(:,2), x(:,3),LineWidth=2);
 
