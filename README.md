@@ -1,1 +1,1 @@
-This includes six matlab .m files and two mathematica .nb files
+This includes six .m files of matlab and two .nb files of mathematica.
